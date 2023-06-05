@@ -68,9 +68,23 @@ section.normal { background-color: white;
 
 section.imagem { background-color: rgb(95, 90, 90);
                  color: white;
+                 
+                 
 }
 
-section.imagem > p { background-color: black;
+#flor {               background-image: url(imagens/background001.jpg);
+                      background-position: right, bottom;
+                      background-size: cover;
+
+}
+
+#livro {             background-image: url(imagens/background002.jpg);
+                     background-size: cover;
+    
+}
+
+
+section.imagem > p { background-color: rgba(0, 0, 0, 0.075);
                      display: inline-block;
                      padding: 10px;
 
