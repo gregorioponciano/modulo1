@@ -10,6 +10,7 @@
     <h1>Uso de tabelas grandes</h1>
 
     <!-- 
+        CAPTION
         ANATOMIA PARA TABELAS GRANDES
          TABLE
             THEAD
@@ -21,10 +22,13 @@
     -->
 
     <table>
+
+        <caption>População das unidades Federativas</caption>
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>população</th>
+                <th scope="col">Estado</th> <!--na mesma coluna-->
+                <th scope="col" style="width: 50px;">população</th>
             </tr>
         </thead>
 
@@ -142,7 +146,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th> <!--na mesma linha -->
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
