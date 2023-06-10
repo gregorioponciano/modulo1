@@ -1,15 +1,20 @@
 @charset "UTF-8";
 
-table {               margin: auto;
+table {              margin: auto;
+                     border-collapse: collapse;
+                     border: 5px solid dimgray;
     
                       
 
 }
 
-td {                 border-style:  solid;
-                     border-color: black;
+td {                 border: 1px solid black;
+                     padding: 8px;
+                     
                      min-width: 100px;
                      max-width: 150px;
+                     
 
 
 }
+tr.e1 {              background-color: yellow;}
