@@ -8,6 +8,8 @@ table {               margin: auto;
 
 td {                 border-style:  solid;
                      border-color: black;
+                     min-width: 100px;
+                     max-width: 150px;
 
 
 }
