@@ -5,24 +5,6 @@
                     
 }
 
-body {               background-color: brown;
-                     background-image: url(imagens/fundo-madeira.jpg);
-                     background-size: 100%;
-                     background-repeat: no-repeat;
 
-                     
-
-
-}
-
-.icone {    	     width: 50px;
-                     display: block;
-                     
-}
-
-div.telefone        {    background-image: url(imagens/frame-iphone.png);
-                         background-repeat: no-repeat;   
-                         max-height: 500px;    
-}
 
 
