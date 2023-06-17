@@ -51,7 +51,7 @@ header {              position: relative;
 
 iframe {              height: 455px; 
                       padding-top: 76px;
-                      width: 260px;
+                      width: 246px;
                       padding-left: 21px;
                       
 
@@ -68,9 +68,10 @@ header > section.telefone { position: absolute;
                             background: url(imagens/frame-iphone.png);
                             background-repeat: no-repeat;
                             margin: auto;
-                            background-size: 100%;
+                            background-size: 96%;
                             height: 627px;
                             width: 300px;
+                            
 
 
                        
