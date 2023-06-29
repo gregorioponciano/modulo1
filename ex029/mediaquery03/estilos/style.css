@@ -9,7 +9,9 @@
 
 html, body {            width: 100vw; /*largura */
                         height: 100vh; /*autura */
-                        background-color: #233eff;;
+                        background-color: #233eff;
+                        background-size: contain;
+                        background-repeat: no-repeat;
           
           
           
