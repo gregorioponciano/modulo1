@@ -19,10 +19,18 @@ TV grandes telas: acima de 1200px
     h1 {font-family: 'Courier New', Courier, monospace;
         text-shadow: none;
         color: black;
+        
     }
-    
+
     main { border: 1px solid black;
+           width: 90vw;
     
+    }
+
+    main::after { 
+        content: 'Essa impressão foi feita atraves do Gregorio Ponci';
+        text-decoration: overline; /*linha encima do texto*/
+        
     }
 
         #phone {display: none;}
