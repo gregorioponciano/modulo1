@@ -11,12 +11,12 @@
 <body>
 
     <header>
-        <menu>
-            <h1>Meu site</h1>
-            <ul>
-                <span id="menuhambur" class="material-symbols-outlined">
-                    density_small
-                    </span>
+        <h1>Meu site</h1>
+        <span id="menuhambur" class="material-symbols-outlined" onclick="clickMenu()">
+            density_small
+            </span>
+        <menu id="itens">          
+            <ul>        
                 <li><a href="#">link</li></a>
                 <li><a href="#">link</li></a>
                 <li><a href="#">link</li></a>
@@ -32,6 +32,19 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi, ad exercitationem deleniti recusandae officia adipisci nostrum quis reiciendis odit, maiores qui distinctio. Cumque nesciunt vero reprehenderit, molestiae laborum possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque blanditiis molestiae architecto sequi, tempora ab, fuga eveniet doloribus quae repellat deleniti, magnam praesentium placeat maxime dolore consequatur vero minus.</p>
         </nav>
     </section>
+
+    <script>
+        function clickMenu() {
+            
+            if ( itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+      <!--if para mostrar 
+          else si nao mostra-->
     
 </body>
 </html>

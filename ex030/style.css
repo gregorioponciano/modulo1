@@ -18,7 +18,7 @@ header h1 {
 }
 
 menu { 
-    display: block;
+    display: none;
     
 }
 
@@ -58,8 +58,13 @@ nav > p { text-align: center;
 }
 
 #menuhambur { cursor: pointer;
-              padding: 3px;
+              padding: 10px;
               display: block;
               text-align: center;
               border-top: 1px solid black;
+}
+
+#menuhambur:hover {
+                    background-color: white;
+                    color: black;
 }
